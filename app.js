@@ -113,7 +113,7 @@ document.addEventListener('click', function(event) {
                     
                     if(num2 === '0'){
 
-                   result = display.innerHTML =" Error ";
+                   result = " Error ";
                    return result;
                     }
                     else
