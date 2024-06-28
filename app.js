@@ -6,14 +6,15 @@
 /*-------------------------------- Variables --------------------------------*/
     let numberdisplay;
     let displayperator;
+    let firstNumber = null;
+    let secondNumber = null;
+    let operator = null;
+    let result = 0;
     
 /*------------------------ Cached Element References ------------------------*/
 
 /*----------------------------- Event Listeners -----------------------------*/
-let firstNumber = null;
-let secondNumber = null;
-let operator = null;
-let result = 0;
+
 
 
 document.addEventListener('click', function(event) {
