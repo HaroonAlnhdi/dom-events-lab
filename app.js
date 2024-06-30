@@ -25,7 +25,7 @@
         });
 
 
-       // clearButton.addEventListener('click', clearDisplay);
+       // clearButton
         equalButton.addEventListener('click', calculateResult);
 
         calculator.addEventListener('click', (event) => {
@@ -33,7 +33,7 @@
             console.log(event.target.innerText);
           
         
-            // Example
+            
             if (event.target.innerText === 'C') {
              clearDisplay();
             }
